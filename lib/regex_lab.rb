@@ -3,7 +3,7 @@ def starts_with_a_vowel?(word)
   #binding.pry
   if word.match(/\b^[aeiou]\b/)
     return true
-  else
+  elsif !word.match(/\b^[aeiou]\b/)
     return false
   end
 end
